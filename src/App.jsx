@@ -41,6 +41,24 @@ const App = () => {
                 placeholder="Enter your email"
               />
             </div>
+            {/* Country input field */}
+            <div className="pb-4">
+              <label
+                className="block font-latoBold text-sm pb-2"
+                htmlFor="country"
+              >
+                Country
+              </label>
+              <select
+                name="country"
+                className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:outline-teal-500"
+              >
+                <option value="">United States</option>
+                <option value="">United Kingdom</option>
+                <option value="">United Arab Emirates</option>
+                <option value="">Greece</option>
+              </select>
+            </div>
           </div>
         </div>
       </form>
