@@ -26,6 +26,21 @@ const App = () => {
                 placeholder="Enter your name"
               />
             </div>
+            {/* Email input field */}
+            <div className="pb-4">
+              <label
+                className="block font-latoBold text-sm pb-2"
+                htmlFor="email"
+              >
+                Email
+              </label>
+              <input
+                className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:outline-teal-500"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+            </div>
           </div>
         </div>
       </form>
