@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import IMAGES from "../public/images";
+// import IMAGES from "../public/images";
 
 const App = () => {
   return (
