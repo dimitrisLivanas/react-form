@@ -20,7 +20,7 @@ const App = () => {
                 Name
               </label>
               <input
-                className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:outline-teal-500"
+                className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:border-teal-500 focus:ring-teal-500"
                 type="text"
                 name="name"
                 placeholder="Enter your name"
@@ -35,7 +35,7 @@ const App = () => {
                 Email
               </label>
               <input
-                className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:outline-teal-500"
+                className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:border-teal-500 focus:ring-teal-500"
                 type="email"
                 name="email"
                 placeholder="Enter your email"
@@ -51,13 +51,34 @@ const App = () => {
               </label>
               <select
                 name="country"
-                className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:outline-teal-500"
+                className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:border-teal-500 focus:ring-teal-500"
               >
                 <option value="">United States</option>
                 <option value="">United Kingdom</option>
                 <option value="">United Arab Emirates</option>
                 <option value="">Greece</option>
               </select>
+            </div>
+            {/* Terms of service */}
+            <div className="pb-4">
+              <label
+                className="block font-latoBold text-sm pb-2"
+                htmlFor="terms"
+              >
+                Terms of service
+              </label>
+              <div className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  name="terms"
+                  value="checked"
+                  className="h-5 w-5 text-teal-500 border-2 focus:border-teal-500 focus:ring-teal-500"
+                />
+                <p className="text-sm font=latoBold text-gray-500">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste
+                  soluta magni, fugit est.
+                </p>
+              </div>
             </div>
           </div>
         </div>
